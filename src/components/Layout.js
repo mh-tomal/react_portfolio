@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Nav />
-      <div className="content">{children}</div>
+      <div className="content font-mont">{children}</div>
       <Footer />
     </>
   );
