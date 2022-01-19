@@ -8,5 +8,6 @@
   "javascript.validate.enable": false,
   "typescript.validate.enable": false,
   "tailwindCSS.validate": true,
-  "html.format.enable": true
+  "html.format.enable": true,
+  "css.lint.unknownAtRules": "ignore"
 }
