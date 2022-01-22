@@ -29,22 +29,22 @@ export default function TechPart() {
         <FaBootstrap
           size={180}
           color="#080135"
-          className="mt-20 w-full text-center xl:animate-bounce 2xl:animate-bounce"
+          className="mt-20 w-full text-center animate-bounce"
         />
         <FaHtml5
           size={180}
           color="#F06529"
-          className="w-full text-center mt-20 md:animate-bounce"
+          className="w-full text-center mt-20 "
         />
         <FaCss3Alt
           size={180}
           color="#264de4"
-          className="w-full text-center mt-20 md:animate-bounce"
+          className="w-full text-center mt-20 animate-bounce"
         />
         <SiTailwindcss
           size={180}
           color="#93c5fd "
-          className="mt-20 w-full text-center md:animate-bounce"
+          className="mt-20 w-full text-center "
         />
         <IoLogoJavascript
           size={180}

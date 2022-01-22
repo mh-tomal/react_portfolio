@@ -1,5 +1,6 @@
+import Devsection from "../components/Devsection";
+import JavascriptBuff from "../components/JavascriptBuff";
 import TechPart from "../components/TechPart";
-
 export default function Home() {
   return (
     <div>
@@ -30,6 +31,8 @@ export default function Home() {
         </div>
       </div>
       <TechPart />
+      <JavascriptBuff />
+      <Devsection />
     </div>
   );
 }
