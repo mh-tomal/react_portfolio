@@ -1,14 +1,12 @@
 import AOS from "aos";
 import React from "react";
-import Layout from "../compoents/Layout";
 import projectsData from "../resources/projects";
 AOS.init({
   duration: 1000,
 });
 
-function Projects() {
+export default function Projects() {
   return (
-    <Layout>
       <div className="mt-20">
         <div className="h-screen">
           <div className="h-3/4">
@@ -61,8 +59,7 @@ function Projects() {
           );
         })}
       </div>
-    </Layout>
   );
 }
 
-export default Projects;
+
